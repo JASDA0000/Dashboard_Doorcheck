@@ -126,7 +126,6 @@
 import { getAssetPath } from "@/core/helpers/assets";
 import { defineComponent, ref } from "vue";
 import Dropdown2 from "@/components/dropdown/Dropdown2.vue";
-
 export default defineComponent({
   name: "kt-widget-12",
   components: {
@@ -134,6 +133,9 @@ export default defineComponent({
   },
   props: {
     widgetClasses: String,
+  },
+  mounted() {
+      console.log("เรียกจากวิตเจ็ต");
   },
   setup() {
     const checkedRows = ref<Array<number>>([]);

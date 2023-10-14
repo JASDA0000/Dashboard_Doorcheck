@@ -11,19 +11,21 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>xxxxxxxxxxx</td>
-                    <td>เจษฎา สิงหภูติ</td>
-                    <td>8.00</td>
-                    <td>17.00</td>
+                    <td>{{Datatime}}</td>
+                    <td>{{Member}}</td>
                 </tr>
             </tbody>
         </table>
     </div>
 </template>
 <script>
+console.log('test');
 export default {
     name:"table",
-}
+    computed: {
+        console: () => console
+    }
+};
 </script>
 <style lang="">
     

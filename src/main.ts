@@ -3,6 +3,8 @@ import { createPinia } from "pinia";
 import { Tooltip } from "bootstrap";
 import App from "./App.vue";
 
+
+
 /*
 TIP: To get started with clean router change path to @/router/clean.ts.
  */
